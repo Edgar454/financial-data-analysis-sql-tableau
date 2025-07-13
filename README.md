@@ -29,8 +29,8 @@ The dataset comes from the [PKDD'99 Financial Dataset](https://relational.fit.cv
 ## 🚧 Work in Progress
 
 - [x] Extracted and imported 8 financial tables
-- [ ] Data wrangling and schema mapping
-- [ ] Define analysis questions (customer lifetime, loan risk, account activity...)
+- [x] Data wrangling and schema mapping
+- [x] Define analysis questions (customer lifetime, loan risk, account activity...)
 - [ ] Build Tableau dashboard(s)
 - [ ] Finalize README and documentation
 
@@ -38,8 +38,8 @@ The dataset comes from the [PKDD'99 Financial Dataset](https://relational.fit.cv
 
 ```
 .
-├── data/                   # CSV exports from MariaDB
-├── sql/                    # SQL scripts (schema, queries, transformations)
+├── datasets/                   # CSV exports from MariaDB
+├── scripts/                    # SQL scripts (schema, queries, transformations)
 ├── tableau/                # Packaged Tableau workbook (.twb or .twbx)
 ├── reports/                # Optional: exported visuals or insights
 └── README.md
